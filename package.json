@@ -1,0 +1,23 @@
+{
+  "name": "bin2dec",
+  "version": "1.0.0",
+  "description": "Bin2Dec é uma das ideias de projetos do repositório: https://github.com/florinpop17/app-ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobisonAleixo/Bin2Dec.git"
+  },
+  "author": "Robison Aleixo",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/RobisonAleixo/Bin2Dec/issues"
+  },
+  "homepage": "https://github.com/RobisonAleixo/Bin2Dec#readme"
+}
