@@ -59,13 +59,14 @@ button {
     border-radius: 5px;
     cursor: pointer;
     height: 50px;
+    border: 1px solid #ECECEB;
 }
 
 button:hover {
     background-color: #222;
     color: #ECECEB;
     transition: all 0.3s;
-    border: 1px solid #ECECEB;
+
 }
 
 form {

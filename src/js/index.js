@@ -10,9 +10,9 @@ document.binaryForm.onsubmit = async e => {
     };
 
     fetch(form.action, options)
-    .then(resp => resp.json())
-    .then(json => {
-        const resultado = document.querySelector('.result');
-        resultado.innerHTML = JSON.stringify(json);
-    });
+        .then(resp => resp.json())
+        .then(json => {
+            const resultado = document.querySelector('.result');
+            resultado.innerHTML = JSON.stringify(json.decimal);
+        });
 }
